@@ -8,7 +8,8 @@ namespace Travel.Tests
   [TestClass]
   public class TestPlace
   {
-  [TestMethod]
+    [TestMethod]
+    
 
     
   }
