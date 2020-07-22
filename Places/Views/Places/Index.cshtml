@@ -7,6 +7,10 @@
 <ul>
   @foreach (Place place in Model)
   {
-    <li>@place.CityName <form action="places/delete" method="post"><button type="submit" name="button">Delete this place</button></form></li>
+    <li>@place.CityName</li>
   }
 </ul>
+
+<a href="/places/new">Add a new place.</a><br>
+
+<a href="/places/delete">Delete all places</a>

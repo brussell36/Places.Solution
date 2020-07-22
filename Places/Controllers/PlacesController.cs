@@ -29,7 +29,8 @@ namespace Travel.Controllers
     [HttpPost("/places/delete")]
     public ActionResult Delete()
     {
-      return this.Delete();
+      Place.ClearAll();
+      return View();
     }
   }
 }
